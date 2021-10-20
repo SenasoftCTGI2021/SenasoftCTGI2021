@@ -28,7 +28,7 @@
 
     <!-- formulario de registro-->
     <div class="d-flex justify-content-center text-center">
-        <form action="validacion.php" class="formulario bg-light" method="post">
+        <form action="../database/login.php" class="formulario bg-light" method="post">
 	        <h1>Ingresa</h1>
 	    	<div class="form-group">
 	    		<div class="input-group">

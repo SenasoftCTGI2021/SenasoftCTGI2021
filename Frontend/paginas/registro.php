@@ -1,4 +1,5 @@
 <?php include "../bootstrapCDN.php" //Librería bootstrap ?>
+<?php include "../database/conexion.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,14 +29,14 @@
 
     <!-- formulario de ingreso -->
     <div class="d-flex justify-content-center text-center">
-        <form action="sesion.php" class="formulario bg-light p-5" method="post">
+        <form action="../database/registro.php" class="formulario bg-light p-5" method="post">
 	        <h1>Registrate</h1>
 	    	<div class="form-group">
 	    		<div class="input-group">
 	    			<div class="input-group-prepend">
 	    				<span class="input-group-text"><i class="fas fa-user"></i></span>
 	    		 	</div>
-                    <input type="text" class="form-control" name="registroNombre" placeholder="Nombre completo" required="">
+                    <input type="text" class="form-control" name="registroNombre" placeholder="Nombre de usuario" required="">
  	    		</div>
 	    	</div>
  	    	<div class="form-group">
