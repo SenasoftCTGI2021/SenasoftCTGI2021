@@ -1,5 +1,5 @@
 <?php include "../bootstrapCDN.php" //Librería bootstrap?>
-<?php include "../database/conexion.php"?>
+<?php include "../../backend/conexion.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

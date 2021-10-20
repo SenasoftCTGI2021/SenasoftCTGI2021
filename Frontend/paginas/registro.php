@@ -1,5 +1,5 @@
 <?php include "../bootstrapCDN.php" //Librería bootstrap ?>
-<?php include "../database/conexion.php" ?>
+<?php include "../../backend/conexion.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +29,7 @@
 
     <!-- formulario de ingreso -->
     <div class="d-flex justify-content-center text-center">
-        <form action="../database/registro.php" class="formulario bg-light p-5" method="post">
+        <form action="../../backend/registro.php" class="formulario bg-light p-5" method="post">
 	        <h1>Registrate</h1>
 	    	<div class="form-group">
 	    		<div class="input-group">
