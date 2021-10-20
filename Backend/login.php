@@ -5,7 +5,7 @@
 
     if (isset($_POST['boton_ingreso'])) {
         $username = $_POST['nombre'];
-        $contrasenna = md5($_POST['ingresoPassword']);
+        $contrasenna = md5($_POST['ingresoPassword']); #contraseña encriptada con md5
         
         $sql = "SELECT * FROM jugadores WHERE username_jugador='$username' AND password_jugador='$contrasenna'";
         $result = mysqli_query($conn, $sql);
