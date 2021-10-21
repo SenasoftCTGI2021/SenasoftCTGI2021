@@ -1,14 +1,16 @@
- setTimeout(function animar(){ location.href = "../Senasoft/index.html"
+function animar(){
 document.getElementById("barra").classList.toggle("final");
-}, 1000* 5);
-document.getElementById("boton").onclick = function(){
+}
+
+function myFunction() {
     animar();
-    
-    
+    myVar = setTimeout(redireccion, 3000);
 }
-      if (getElementById(".inicio") == getElementById(".final")){
-alert("se ha completado")
+
+function redireccion() {
+    location.href = "../Senasoft/"
 }
-else{
-    alert("algo fallo")
-}
+
+
+
+
