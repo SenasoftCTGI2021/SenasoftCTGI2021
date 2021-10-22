@@ -20,3 +20,20 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/sala/privada', function(){
+    return view('sala/privada/index');
+})->name('privada');
+
+Route::get('/sala/crear', function(){
+    return view('sala/crear/index');
+})->name('crear');
+
+Route::get('/sala', function () {
+    return view('sala');
+});
+
+
+Route::get('/sala/sala', function () {
+    return view('sala/sala/index');
+});

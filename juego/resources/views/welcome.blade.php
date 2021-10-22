@@ -49,13 +49,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/pexels-karolina-grabowska-5420795.jpg" alt="First slide">
+                                <img class="d-block w-100" src="img/Reglas del Juego a Desarrollar - Final_page-0002.jpg" alt="First slide">
                             </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/pexels-karolina-grabowska-5420795.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="img/Reglas del Juego a Desarrollar - Final_page-0003.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/pexels-karolina-grabowska-5420795.jpg" alt="Third slide">
+                        <img class="d-block w-100" src="img/Reglas del Juego a Desarrollar - Final_page-0003(1).jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
